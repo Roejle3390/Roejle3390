@@ -1,0 +1,231 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="da">
+<head>
+    <meta name="robot" content="index, nofollow" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="../css/bootstrap/bootstrap.min.css" rel="stylesheet" media="screen">
+
+    <!--Custom CSS-->
+    <link href="../css/custom/fixed-navbar.css" rel="stylesheet" />
+    <link href="../css/custom/sticky-footer.css" rel="stylesheet" />
+    <link href="../css/custom/font_size.css" rel="stylesheet" />
+    <link href="../css/custom/custom.css" rel="stylesheet" />
+    <link href="../css/custom/icon_list.css" rel="stylesheet" />
+    <link href="../css/custom/override-bootstrap.css" rel="stylesheet" />
+
+    <link href="../css/bootstrap/bootstrap-responsive.min.css" rel="stylesheet" />
+
+    <title>Cookies og web</title>
+    <meta name="description" content="Om hjemmesidens brug af cookies, ejer og teknik" />
+
+</head>
+<body>
+    <!-- Part 1: Wrap all page content here -->
+    <div id="wrap">
+
+        <!-- Fixed navbar -->
+        <div class="navbar navbar-fixed-top">
+            <!--<div class="navbar navbar-static-top">-->
+
+            <div class="navbar-inner">
+
+                <div class="container">
+
+                    <!-- Button visible when navbar is collapsed -->
+                    <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <!--three lines in button -->
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <!-- Navigate to start page -->
+                    <a class="brand" href="Index.html">Røjlegården</a>
+
+                    <!-- Narrow pages -- Navigate to home, next / previous (loop) -->
+                    <div class="hidden-desktop">
+
+                        <ul class="nav">
+                            <li><a href="Index.html"><i class="icon-home"></i></a></li>
+
+                            <!--Reverse-->
+                            <li><a onclick="moveBackward('Json/navigation.txt')"><i class="icon-chevron-left"></i></a></li>
+
+                            <!--Forward-->
+                            <li><a onclick="moveForward('Json/navigation.txt')"><i class="icon-chevron-right"></i></a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Wide pages -- Navigate to specific pages -->
+                    <div class="nav-collapse collapse">
+
+                        <!-- A clickable menu is build here.
+                            The JavaScript setupMenu(url,targetId) inserts entries before the existing entries.
+                            -->
+                        <ul id="menu" class="nav">
+
+                            <li><a href="../en/Index.html">
+                                <img src="../images/Flags/United Kingdom.png" alt="English" style="width: 1em;" /></a></li>
+                            <li><a onclick="decrease()">
+                                <img id="Img2" alt="Decrease text size" class="font_size" src="../images/glyphicons/png/glyphicons_115_text_smaller.png" /></a></li>
+                            <li><a onclick="increase()">
+                                <img id="Img3" alt="Decrease text size" class="font_size" src="../images/glyphicons/png/glyphicons_116_text_bigger.png" /></a></li>
+
+                        </ul>
+                    </div>
+                    <!--/.nav-collapse -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Begin page content -->
+        <div class="container">
+
+            <div class="page-header">
+                <h1 id="title">Roejle.dk og cookies</h1>
+            </div>
+
+            <div class="row">
+                <div class="span5">
+                    <p>
+                        <img src="../images/Width770/Cookies.jpg" />
+                    </p>
+                    <div class="vertical_space"></div>
+
+                </div>
+                <div class="span7">
+                    <p>Roejle.dk anvender cookies til følgende formål:</p>
+                    <ul>
+                        <li>Teknisk funktionalitet, herunder tekststørrelse, så vi kan huske dine præferencer.</li>
+                        <li>Trafikmåling, så vi ved hvor mange der besøger vores site og hvor de kommer fra. </li>
+                    </ul>
+
+                    <p><strong>Ejeroplysninger:</strong></p>
+
+                    <p>Dette website udbydes af:</p>
+
+                    <p>
+                        Røjlegården ved Liljan Wagner Smitt og Peter Plant<br />
+                        Torupvejen 98<br />
+                        3390 Hundested<br />
+                        Telefon: 47 98 80 16<br />
+                        Email: info@roejle.dk
+                    </p>
+
+                    <p>
+                        <strong>Cookies</strong><br />
+                        En cookie er en lille tekstfil, der lagres i din browser og for at kunne genkende din computer ved tilbagevendende besøg. 
+                        Der er ingen personlige oplysninger gemt i vores cookies, og de kan ikke indeholde virus.
+                    </p>
+
+                    <p>
+                        <strong>Så lang tid opbevares cookies</strong><br />
+                        Cookies sletter sig selv efter et vist antal måneder (kan variere), men de fornyes efter hvert besøg.
+                    </p>
+
+                    <p>
+                        <strong>Sådan undgår du cookies</strong><br />
+                        Hvis du ikke ønsker at modtage cookies, kan du slette eller blokere dem. 
+                        Se vejledning på <a href="http://minecookies.org/cookiehandtering" target="_blank">http://minecookies.org/cookiehandtering</a>.
+                    </p>
+
+                    <p>
+                        <strong>Hvad bruges cookies til på roejle.dk?</strong><br />
+                        Cookies anvendes til at føre statistik over antallet af brugere samt oplysninger om geografi.
+                    </p>
+
+                    <p>
+                        <em>- Google Analytics (trafikmåling)</em><br />
+                        Websitet bruger cookies fra Google Analytics til at måle trafikken på websitet.
+                    </p>
+
+                    <p>Du kan fravælge cookies fra Google Analytics her: <a href="http://tools.google.com/dlpage/gaoptout" target="_blank">http://tools.google.com/dlpage/gaoptout</a></p>
+
+                    <p>
+                        <strong>Teknologi</strong>
+                    </p>
+
+                    <p>
+                        Roejle.dk er designet af:
+                    </p>
+
+                    <p>
+                        Villy Ib Jørgensen<br />
+                        Nordstjernen 9<br />
+                        3390 Hundested<br />
+                        E-mail: <a href="mailto:villy.ib.jorgensen@gmail.com">villy.ib.jorgensen@gmail.com</a><br />
+                    </p>
+                    <p>
+                        Roejle.dk er implementeret med anvendelse af teknologien <strong><a href="http://en.wikipedia.org/wiki/Responsive_web_design" target="_blank">Responsive Design</a></strong>,
+                        således at websiderne kan læses med en pc, en tablet eller en smart telefon.
+
+                        Der anvedes JavaScript biblioteker fra 
+                        <strong><a href="http://twitter.github.io/bootstrap/" target="_blank">Bootstrap</a></strong>,
+                         <strong><a href="http://jquery.com/" target="_blank">jQuery</a></strong>
+                        og <strong><a href="http://www.google.com/analytics/" target="_blank">Google Analytics</a></strong>
+
+                    </p>
+                    <div class="vertical_space"></div>
+                </div>
+            </div>
+
+
+
+        </div>
+        <!--Push the footer down-->
+        <!--<div id="push"></div>-->
+    </div>
+
+    <!-- Same footer repeated on each page -->
+    <div id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="span6" id="footer1"></div>
+                <div class="span3" id="footer2"></div>
+                <div class="span3" id="footer3"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+    <script src="../js/jquery/jquery-1.9.1.min.js"></script>
+    <script src="../js/jquery/jquery.cookie.js"></script>
+
+    <script src="../js/bootstrap/bootstrap-affix.js"></script>
+    <script src="../js/bootstrap/bootstrap-alert.js"></script>
+    <script src="../js/bootstrap/bootstrap-button.js"></script>
+    <script src="../js/bootstrap/bootstrap-carousel.js"></script>
+    <script src="../js/bootstrap/bootstrap-collapse.js"></script>
+    <script src="../js/bootstrap/bootstrap-dropdown.js"></script>
+    <script src="../js/bootstrap/bootstrap-modal.js"></script>
+    <!--<script src="../js/bootstrap/bootstrap-popover.js"></script>-->
+    <script src="../js/bootstrap/bootstrap-scrollspy.js"></script>
+    <script src="../js/bootstrap/bootstrap-tab.js"></script>
+    <script src="../js/bootstrap/bootstrap-tooltip.js"></script>
+    <script src="../js/bootstrap/bootstrap-transition.js"></script>
+    <script src="../js/bootstrap/bootstrap-typeahead.js"></script>
+    <script src="../js/bootstrap/bootstrap.min.js"></script>
+
+    <script src="../js/custom/textsize.js"></script>
+    <script src="../js/custom/load-file-as-text.js"></script>
+    <script src="../js/custom/setupmenu2.js"></script>
+    <script src="../js/custom/navigation.js"></script>
+
+    <script type="text/javascript">
+        $(window).load(function () { //start after HTML, images have loaded
+            // Load footer columns
+            loadContent("Footer/Footer1.htm", "#footer1");
+            loadContent("Footer/Footer2.htm", "#footer2");
+            loadContent("Footer/Footer3.htm", "#footer3");
+            setupMenu2("Json/navigation.txt", "#menu");
+        });
+    </script>
+    <script src="../js/googleanalytics/trackingcode.js"></script>
+
+</body>
+</html>

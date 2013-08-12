@@ -1,0 +1,324 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="da">
+<head>
+    <meta name="robot" content="index, follow" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="../css/bootstrap/bootstrap.min.css" rel="stylesheet" media="screen">
+
+    <!--Custom CSS-->
+    <link href="../css/custom/fixed-navbar.css" rel="stylesheet" />
+    <link href="../css/custom/sticky-footer.css" rel="stylesheet" />
+    <link href="../css/custom/font_size.css" rel="stylesheet" />
+    <link href="../css/custom/custom.css" rel="stylesheet" />
+    <link href="../css/custom/icon_list.css" rel="stylesheet" />
+    <link href="../css/custom/override-bootstrap.css" rel="stylesheet" />
+
+    <link href="../css/bootstrap/bootstrap-responsive.min.css" rel="stylesheet" />
+
+    <!-- title is shown in search engine, it should NOT exceed 70 characters. -->
+    <title  class="temp">Økologi |  Bed and Breakfast | Lammekød | Uldgarn | Pil | Roejlegaarden</title>
+
+    <!-- description is shown in search engines, it should NOT exceed 155 characters including space. -->
+    <meta name="description" content="Økologisk fristed tæt til havet - midt på solrige Halsnæs. Overnatning i separat afdeling med køkken & bad. Teltplads. Salg af økologisk lammekød og pil" />
+    <meta name="author" content="Peter Plant, Røjlegården" />
+
+</head>
+<body>
+
+    <!-- 
+            class 'slide' and bootstrap-transition.js together will let the image slide from right to left when changing.
+            Without both the image will just change without any animation.
+            -->
+
+    <div id="wrap">
+
+        <!-- Fixed navbar -->
+        <div class="navbar navbar-fixed-top ">
+            <!--<div class="navbar navbar-static-top">-->
+
+            <div class="navbar-inner">
+
+                <div class="container">
+
+                    <!-- Button visible when navbar is collapsed -->
+                    <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <!--three lines in button -->
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <!-- Navigate to start page -->
+                    <a class="brand" href="Index.html">Roejlegaarden</a>
+
+                    <!-- Narrow pages -- Navigate to home, next / previous (loop) -->
+                    <div class="hidden-desktop">
+
+                        <ul class="nav">
+                            <li><a href="Index.html"><i class="icon-home"></i></a></li>
+
+                            <!--Reverse-->
+                            <li><a onclick="moveBackward('Json/navigation.txt')"><i class="icon-chevron-left"></i></a></li>
+
+                            <!--Forward-->
+                            <li><a onclick="moveForward('Json/navigation.txt')"><i class="icon-chevron-right"></i></a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Wide pages -- Navigate to specific pages -->
+                    <div class="nav-collapse collapse">
+
+                        <!-- A clickable menu is build here.
+                            The JavaScript setupMenu(url,targetId) inserts entries before the existing entries.
+                            -->
+                        <ul id="menu" class="nav">
+
+                            <li><a href="../da/Index.html">
+                                <img src="../images/Flags/Denmark.png" alt="Dansk" style="width: 1em;" /></a></li>
+                            <li><a onclick="decrease()">
+                                <img id="Img2" alt="Decrease text size" class="font_size" src="../images/glyphicons/png/glyphicons_115_text_smaller.png" /></a></li>
+                            <li><a onclick="increase()">
+                                <img id="Img3" alt="Decrease text size" class="font_size" src="../images/glyphicons/png/glyphicons_116_text_bigger.png" /></a></li>
+
+                        </ul>
+                    </div>
+                    <!--/.nav-collapse -->
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <div class="row visible-desktop">
+                <div class="span2"></div>
+                <div class="span8 text-center">
+                    <h2>Roejlegaarden</h2>
+                </div>
+                <div class="span2"></div>
+            </div>
+
+            <div class="row">
+
+                <div class="span2"></div>
+                <div class="span8">
+
+                    <div id="myCarousel" class="carousel slide">
+                        <!--Place band with dots to inicate the position of the active target-->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                            <li data-target="#myCarousel" data-slide-to="3"></li>
+                            <li data-target="#myCarousel" data-slide-to="4"></li>
+                            <li data-target="#myCarousel" data-slide-to="5"></li>
+                            <li data-target="#myCarousel" data-slide-to="6"></li>
+                            <li data-target="#myCarousel" data-slide-to="7"></li>
+                        </ol>
+
+                        <!-- Carousel items -->
+                        <div class="carousel-inner">
+
+                            <div class="active item">
+                                <a href="Honey.html">
+                                    <h4 class="text-center">Honey</h4>
+                                </a>
+                                <a href="Honey.html">
+                                    <img src="../images/Width770/Honey.jpg" />
+                                </a>
+                            </div>
+
+                            <div class="item">
+                                <a href="Willow.html">
+                                    <h4 class="text-center">Willow</h4>
+                                </a>
+                                <a href="Willow.html">
+                                    <img src="../images/Width770/Willow.jpg" />
+                                </a>
+                            </div>
+
+                            <div class="item">
+                                <a href="Campsite.html">
+                                    <h4 class="text-center">Campsite</h4>
+                                </a><a href="Campsite.html">
+                                    <img src="../images/Width770/Campsite.jpg" />
+                                </a>
+                            </div>
+
+                            <div class="item">
+                                <a href="Room.html">
+                                    <h4 class="text-center">Room</h4>
+                                </a>
+                                <a href="Room.html">
+                                    <img src="../images/Width770/Room.jpg" />
+                                </a>
+                            </div>
+
+                            <div class="item">
+                                <a href="Weekend.html">
+                                    <h4 class="text-center">Weekend stay</h4>
+                                </a>
+                                <a href="Weekend.html">
+                                    <img src="../images/Width770/Weekend.jpg" />
+                                </a>
+                            </div>
+
+                            <div class="item">
+                                <a href="Sheeps.html">
+                                    <h4 class="text-center">Organic sheep meat</h4>
+                                </a>
+                                <a href="Sheeps.html">
+                                    <img src="../images/Width770/SheepAndLamb.jpg" />
+
+                                </a>
+                            </div>
+
+                            <div class="item">
+                                <a href="SheepWool.html">
+                                    <h4 class="text-center">Wool</h4>
+                                </a>
+                                <a href="SheepWool.html">
+                                    <img src="../images/Width770/Wool.jpg" />
+                                </a>
+                            </div>
+
+                            <div class="item">
+                                <a href="Bookshop.html">
+                                    <h4 class="text-center">Bookstall</h4>
+                                </a>
+                                <a href="Bookshop.html">
+                                    <img src="../images/Width770/BookShop.jpg" />
+                                </a>
+                            </div>
+
+                        </div>
+                        <!-- Carousel nav -->
+                        <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+                        <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+
+                    </div>
+
+                </div>
+                <div class="span2"><!--<a href="#" id="edit-cookieconsent-settings">Click here to change your cookie settings</a>--></div>
+            </div>
+
+            <div class="row">
+                <div class="span2"></div>
+                <div class="span8">
+                    <!-- Show links to pages when JavaScript is disabled -->
+                    <noscript>
+                        <h4>Vælg sider fra listen herunder og tryk på "Roejlegaarden" i øverste venstre hjørne for at komme til denne side igen.</h4>
+                        <br />
+                        <a href="Honey.html">Honning</a><br />
+                        <a href="Willow.html">Pil</a>
+                        <br />
+                        <a href="Campsite.html">Skurvogn og teltplads</a><br />
+                        <a href="Room.html">Værelse</a>
+                        <br />
+                        <a href="Weekend.html">Weekend ophold</a>
+                        <br />
+                        <a href="Sheeps.html">Økologisk lammekød</a>
+                        <br />
+                        <a href="SheepWool.html">Uldgarn</a>
+                        <br />
+                        <a href="Bookshop.html">Bogbod</a>
+                        <br />
+                        <a href="Links.html">Links</a>
+                        <br />
+                        <a href="About.html">Om Roejlegaarden</a>
+                        <br />
+                        <a href="WebCookies.html">WebCookies.html</a>
+                    </noscript>
+                </div>
+                <div class="span2"></div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Same footer repeated on each page -->
+    <div id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="span6" id="footer1"></div>
+                <div class="span3" id="footer2"></div>
+                <div class="span3" id="footer3"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="../js/jquery/jquery-1.9.1.min.js"></script>
+    <script src="../js/jquery/jquery.cookie.js"></script>
+
+    <script src="../js/bootstrap/bootstrap-affix.js"></script>
+    <script src="../js/bootstrap/bootstrap-alert.js"></script>
+    <script src="../js/bootstrap/bootstrap-button.js"></script>
+    <script src="../js/bootstrap/bootstrap-carousel.js"></script>
+    <script src="../js/bootstrap/bootstrap-collapse.js"></script>
+    <script src="../js/bootstrap/bootstrap-dropdown.js"></script>
+    <script src="../js/bootstrap/bootstrap-modal.js"></script>
+    <!--<script src="../js/bootstrap/bootstrap-popover.js"></script>-->
+    <script src="../js/bootstrap/bootstrap-scrollspy.js"></script>
+    <script src="../js/bootstrap/bootstrap-tab.js"></script>
+    <script src="../js/bootstrap/bootstrap-tooltip.js"></script>
+    <script src="../js/bootstrap/bootstrap-transition.js"></script>
+    <script src="../js/bootstrap/bootstrap-typeahead.js"></script>
+    <script src="../js/bootstrap/bootstrap.min.js"></script>
+
+    <script src="../js/custom/textsize.js"></script>
+    <script src="../js/custom/load-file-as-text.js"></script>
+    <script src="../js/custom/setupmenu2.js"></script>
+    <script src="../js/custom/navigation.js"></script>
+
+    <script type="text/javascript">
+        $(window).load(function () { //start after HTML, images have loaded
+
+            //controls the duration each  picture is shown (time in ms).
+            $('.carousel').carousel({ interval: 8000 });
+        });
+    </script>
+
+    <script type="text/javascript">
+        $(window).load(function () { //start after HTML, images have loaded
+            // Load footer columns
+            loadContent("Footer/Footer1.htm", "#footer1");
+            loadContent("Footer/Footer2.htm", "#footer2");
+            loadContent("Footer/Footer3.htm", "#footer3");
+            setupMenu2("Json/navigation.txt", "#menu");
+            //loadContent("Rejseplanen/Rejseplanen.htm", "#rejseplanen");
+        });
+    </script>
+
+<!--    <script type="text/javascript" src="http://cookieconsent.com/releases/latest/cookie-consent.js"></script>
+
+    <script type="text/javascript">
+        $(function () {
+            var cookieconsent = $.cookieconsent({
+                default_level_id: 'alfa',
+                edit_settings_element: $('#edit-cookieconsent-settings'),
+                jqueryui_theme_css: 'http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.10/themes/vader/jquery-ui.css',
+                cookie_policy_url: 'WebCookies.html',
+                levels: [
+                    {
+                        id: 'strictly-necessary-and-performance',
+                        title: 'Strictly necessary & Performance',
+                        permissions: ['Remember what is in your shopping basket', 'Remember how far you are through an order'],
+                        callback: function () { /* put your level code here. This is the base level and will be executed on every page load. */ }
+                    },
+                    {
+                        id: 'alfa',
+                        title: 'Alfa',
+                        permissions: ['Bravo', 'Charlie'],
+                        callback: function () { /* put your level code here. */ }
+                    }
+                ]
+            });
+        });
+    </script>-->
+
+    <script src="../js/googleanalytics/trackingcode.js"></script>
+
+</body>
+</html>

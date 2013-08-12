@@ -1,0 +1,25 @@
+﻿.fade {
+  opacity: 0;
+  -webkit-transition: opacity 4.15s linear;
+     -moz-transition: opacity 4.15s linear;
+       -o-transition: opacity 4.15s linear;
+          transition: opacity 4.15s linear;
+}
+
+.carousel-indicators li
+{
+    background-color: red;
+    height: 5px;
+    width: 5px;
+    border-radius: 2px;
+}
+
+.carousel-indicators .active {
+    background-color: green;
+}
+
+.navbar .nav
+{
+    float: none;
+}
+

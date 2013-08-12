@@ -1,0 +1,36 @@
+﻿.icon_loc {
+    background: url('../../images/glyphicons/png/glyphicons_242_google_maps.png') left 3px no-repeat ;
+    /*background-size: 16px 24px;*/
+    padding: 0 0 0 30px;
+    margin-bottom: 6px;
+    /*line-height: 30px;*/
+    min-height: 30px;
+}
+
+.icon_mail {
+    background: url('../../images/glyphicons/png/glyphicons_010_envelope.png') left 3px no-repeat;
+    /*background-size: 24px 16px;*/
+    padding: 0 0 0 30px;
+    margin-bottom: 6px;
+    /*line-height: 30px;*/
+    min-height: 30px;
+}
+
+.icon_phone {
+    background: url('../../images/glyphicons/png/glyphicons_169_phone.png') left 3px no-repeat;
+    /*background-size: 26px 22px;*/
+    padding: 0 0 0 30px;
+    margin-bottom: 6px;
+    /*line-height: 30px;*/
+    min-height: 30px;
+}
+
+.icon_home {
+    background: url('../../images/glyphicons/png/glyphicons_020_home.png') left 3px no-repeat;
+    /*background-size: 26px 22px;*/
+    padding: 0 0 0 30px;
+    margin-bottom: 6px;
+    /*line-height: 30px;*/
+    min-height: 30px;
+}
+

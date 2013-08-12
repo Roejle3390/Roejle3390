@@ -1,0 +1,16 @@
+﻿{
+"linklist": [
+    { "url":"Index.html", "menu":"Røjlegården", "description":"Røjlegården", "title":"Røjlegården indgangsside", "markup":"<span class=\"icon-home\"></span>"  } 
+    ,{ "url":"Honey.html", "menu":"Honning", "description":"Honning fra egne bier" }
+    ,{ "url":"Willow.html", "menu":"Pil", "description":"Økologisk pil af egen avl" }
+    ,{ "url":"Campsite.html", "menu":"Skurvogn og teltplads" }
+    ,{ "url":"Room.html", "menu":"Værelse" }
+    ,{ "url":"Weekend.html", "menu":"Weekend ophold", "description":"Kærligheds-weekend luxus og ro for to" }
+    ,{ "url":"Sheeps.html", "menu":"Økologisk lammekød", "description":"Får og lam, Økologisk lammekød" }
+    ,{ "url":"SheepWool.html", "menu":"Uldgarn", "description":"Gråt uldgarn fra økologiske får"  }
+    ,{ "url":"Bookshop.html", "menu":"Bogbod", "description":"Bogbod med brugte bøger fra Torup Bogby" }
+    ,{ "url":"Links.html", "menu":"Links", "description":"Links ..." }
+    ,{ "url":"About.html", "menu":"Om Røjlegården" }
+    ,{ "url":"WebCookies.html", "menu":"Web og cookies", "description":"Roejle.dk og cookies" }
+]
+}

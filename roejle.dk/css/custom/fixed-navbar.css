@@ -1,0 +1,20 @@
+﻿        @media (min-width: 980px)
+        {
+            #wrap > .container
+            {
+                /*The 'navbar-fixed-top' hides an area of the body, make sure not to use the hidden area.*/
+                /*padding-top: 60px;*/
+                padding-top: 8.57142857em; /* 120px up to 3 lines in navigation bar */
+                /*padding-top: 5.71428571429em;*/  /* 80px up to 2 lines in navigation bar */
+            }
+        }
+
+        .container .credit
+        {
+            margin: 20px 0;
+        }
+
+        code
+        {
+            font-size: 80%;
+        }

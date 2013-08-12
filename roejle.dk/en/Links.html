@@ -1,0 +1,317 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="da">
+<head>
+    <meta name="robot" content="noindex, nofollow" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="../css/bootstrap/bootstrap.min.css" rel="stylesheet" media="screen">
+
+    <!--Custom CSS-->
+    <link href="../css/custom/fixed-navbar.css" rel="stylesheet" />
+    <link href="../css/custom/sticky-footer.css" rel="stylesheet" />
+    <link href="../css/custom/font_size.css" rel="stylesheet" />
+    <link href="../css/custom/custom.css" rel="stylesheet" />
+    <link href="../css/custom/icon_list.css" rel="stylesheet" />
+    <link href="../css/custom/override-bootstrap.css" rel="stylesheet" />
+
+    <link href="../css/bootstrap/bootstrap-responsive.min.css" rel="stylesheet" />
+
+    <title class="temp">Links | Naboer til Roejlegaarden</title>
+    <meta name="description" content="Henvisninger til hjemmesider med relation til Roejlegaarden" />
+
+</head>
+<body>
+    <!-- Part 1: Wrap all page content here -->
+    <div id="wrap">
+
+        <!-- Fixed navbar -->
+        <div class="navbar navbar-fixed-top">
+            <!--<div class="navbar navbar-static-top">-->
+
+            <div class="navbar-inner">
+
+                <div class="container">
+
+                    <!-- Button visible when navbar is collapsed -->
+                    <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <!--three lines in button -->
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <!-- Navigate to start page -->
+                    <a class="brand" href="Index.html">Roejlegaarden</a>
+
+                    <!-- Narrow pages -- Navigate to home, next / previous (loop) -->
+                    <div class="hidden-desktop">
+
+                        <ul class="nav">
+                            <li><a href="Index.html"><i class="icon-home"></i></a></li>
+
+                            <!--Reverse-->
+                            <li><a onclick="moveBackward('Json/navigation.txt')"><i class="icon-chevron-left"></i></a></li>
+
+                            <!--Forward-->
+                            <li><a onclick="moveForward('Json/navigation.txt')"><i class="icon-chevron-right"></i></a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Wide pages -- Navigate to specific pages -->
+                    <div class="nav-collapse collapse">
+
+                        <!-- A clickable menu is build here.
+                            The JavaScript setupMenu(url,targetId) inserts entries before the existing entries.
+                            -->
+                        <ul id="menu" class="nav">
+
+                            <li><a href="../da/Index.html">
+                                <img src="../images/Flags/Denmark.png" alt="Dansk" style="width: 1em;" /></a></li>
+                            <li><a onclick="decrease()">
+                                <img id="Img2" alt="Decrease text size" class="font_size" src="../images/glyphicons/png/glyphicons_115_text_smaller.png" /></a></li>
+                            <li><a onclick="increase()">
+                                <img id="Img3" alt="Decrease text size" class="font_size" src="../images/glyphicons/png/glyphicons_116_text_bigger.png" /></a></li>
+
+                        </ul>
+                    </div>
+                    <!--/.nav-collapse -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Begin page content -->
+        <div class="container">
+
+            <div class="page-header temp">
+                <h1 id="title">Links ... </h1>
+                <p>På og omkring Roejlegaarden er der mange spændende aktiviteter: </p>
+            </div>
+
+            <!--Row 1-->
+            <div class="row sectionEntries">
+                <div class="span4 temp">
+                    <a title="Torup Bogby I" href="http://www.torupbogby.dk" target="_blank">
+                        <img title="Torup Bogby I" class="medium" src="../images/Bogby.jpg" alt="Torup Bogby" /></a>
+                    <h3><a title="Torup Bogby I" href="http://www.torupbogby.dk" target="_blank">Torup Bogby</a></h3>
+                    Torup Bogby med en række selvstændige bog-antikvariater plus tilhørende arrangementer: forfattertræf, læsninger, børnearrangementer, musik etc.
+                </div>
+
+                <div class="span4 temp">
+                    <a title="Torup Bogby II" href="http://www.torupbogby.dk/stationen" target="_blank">
+                        <img title="Torup Bogby II" class="medium" src="../images/dyssekilde01-stor.jpg" alt="Dyssekilde Station" /></a>
+                    <h3><a title="Torup Bogby II" href="http://www.torupbogby.dk/stationen" target="_blank">Dyssekilde Station</a></h3>
+                    Besøg Dyssekilde Station som bugner af bøger
+                </div>
+
+                <div class="span4 temp">
+                    <a title="Torup Bogby III" href="http://www.torupbogby.dk" target="_blank">
+                        <img title="Torup Bogby III" class="medium" src="../images/Width770/BookShop.jpg" alt="Bogboden på Roejlegaarden" /></a>
+                    <h3><a title="Torup Bogby III" href="http://www.torupbogby.dk" target="_blank">Bogboden på Roejlegaarden</a></h3>
+                    Bogboden på Roejlegaarden i det gamle karlekammer.
+                </div>
+
+            </div>
+
+            <!--Row 2-->
+            <div class="row">
+                <div class="span4 temp">
+                    <a title="Torup Bogby IV" href="http://www.torupbogby.dk/salg" target="_blank">
+                        <img title="Torup Bogby IV" class="medium" src="../images/Width770/Bogbod.jpg" alt="Salgssteder for Torup Bogby" /></a>
+                    <h3><a title="Torup Bogby IV" href="http://www.torupbogby.dk/salg" target="_blank">Salgssteder</a></h3>
+                    Se samtlige salgssteder for Torup Bogby.
+                </div>
+
+                <div class="span4 temp">
+                    <a title="Kunstsmed" href="http://www.kunstsmed.dk" target="_blank">
+                        <img title="Kunstsmed" class="medium" src="../images/kunstsmed.jpg" alt="Kunstsmed" /></a>
+                    <h3><a title="Kunstsmed" href="http://www.kunstsmed.dk" target="_blank">Kunstsmed</a></h3>
+                    Vores kreative smed arbejder i Røjlegårdens smedje, især med historiske genstande.
+                    <div class="vertical_space"></div>
+                </div>
+
+                <div class="span4 temp">
+                    <a title="Dyssekilde Yoga" href="http://www.dyssekildeyoga.dk" target="_blank">
+                        <img title="Dyssekilde Yogacenter" class="medium" src="../images/Width770/Yoga.jpg" alt="Sommeryoga på Dyssekilde Yogacenter" /></a>
+                    <h3><a title="Dyssekilde Yogacenter" href="http://www.dyssekildeyoga.dk" target="_blank">Dyssekilde Yogacenter</a></h3>
+                    Sommeryoga på Dyssekilde Yogacenter.  
+                    <br />
+                    <em>Under åben himmel</em>
+                    ”Når solen er fremme, rykker vi yogamåtterne ud på den store græsplæne.  Det er en helt særlig oplevelse at lave yoga i naturen.  
+                    Fårene bræger, hanen galer, og solens stråler passer bare så fint til Solhilsenen”.<br />
+                    <br />
+                </div>
+
+            </div>
+
+            <!--Row 3-->
+            <div class="row">
+
+                <div class="span4 temp">
+                    <a title="Jytte Strøm" href="http://www.jyttestrom.dk" target="_blank">
+                        <img title="Jytte Strøm" class="medium" src="../images/JytteStrom.jpg" alt="Jytte Strøm" /></a>
+                    <h3><a title="Jytte Strøm" href="http://www.jyttestrom.dk" target="_blank">Jytte Strøm</a></h3>
+                    Unik keramik fra Jytte Strøm.
+                    <div class="vertical_space"></div>
+                </div>
+
+                <div class="span4 temp">
+                    <a title="Møllekilde Golf" href="http://www.mollekildegolf.dk" target="_blank">
+                        <img title="Møllekilde Golf" class="medium" src="../images/MolledildeGolf.JPG" alt="Møllekilde Golf" /></a>
+                    <h3><a title="Møllekilde Golf" href="http://www.mollekildegolf.dk" target="_blank">Møllekilde Golf</a></h3>
+                    Danmarks første økologiske golfbane i Nordsjælland.
+                </div>
+
+                <div class="span4 temp">
+                    <a title="Turisme på Halsnæs" href="http://www.halsnaes.dk/Kultur/Turismeguide.aspx" target="_blank">
+                        <img title="Turisme på Halsnæs" class="medium" src="../images/Turistguide.jpg" alt="Turisme på Halsnæs" /></a>
+                    <h3><a title="Turisme på Halsnæs" href="http://www.halsnaes.dk/Kultur/Turismeguide.aspx" target="_blank">Turisme på Halsnæs</a></h3>
+                    Seværdigheder og aktiviteter på Halsnæs
+                </div>
+
+            </div>
+
+            <!--Row 4-->
+            <div class="row">
+
+                <div class="span4 temp">
+                    <a title="Oplev Halsnæs" href="http://www.kultunaut.dk/perl/arrlist/type-nynaut?periode=&Area=Halsn%C3%A6s-storkommune&Genre=-Film" target="_blank">
+                        <img title="Oplev Halsnæs" class="medium" src="../images/Halsnaes.jpg" alt="Oplev Halsnæs" /></a>
+                    <h3><a title="Oplev Halsnæs" href="http://www.kultunaut.dk/perl/arrlist/type-nynaut?periode=&Area=Halsn%C3%A6s-storkommune&Genre=-Film" target="_blank">Oplev Halsnæs</a></h3>
+                    Den elektroniske kulturguide.
+                </div>
+
+                <div class="span4 temp">
+                    <a title="Økosamfundet Dyssekilde" href="http://www.dyssekilde.dk" target="_blank">
+                        <img title="Økosamfundet Dyssekilde" class="medium" src="../images/Oekosamfundet.jpg" alt="Økosamfundet Dyssekilde" /></a>
+                    <h3><a title="Økosamfundet Dyssekilde" href="http://www.dyssekilde.dk" target="_blank">Økosamfundet Dyssekilde</a></h3>
+                    Økokologisk landsby i Torup.
+                </div>
+
+                <div class="span4 temp">
+                    <a title="Toruplund" href="http://www.toruplund.dk" target="_blank">
+                        <img title="Toruplund" class="medium" src="../images/Toruplund.jpg" alt="Toruplund" /></a>
+                    <h3><a title="Toruplund" href="http://www.toruplund.dk" target="_blank">Toruplund</a></h3>
+                    Hotel, konference og fester .
+                </div>
+
+            </div>
+
+            <!--Row 4-->
+            <div class="row">
+
+                <div class="span4 temp">
+                    <a title="Borgerforeningen" href="http://www.torupborgerforening.dk" target="_blank">
+                        <img title="Borgerforeningen" class="medium" src="../images/Borgerforening.jpg" alt="Borgerforeningen" /></a>
+                    <h3><a title="Borgerforeningen" href="http://www.torupborgerforening.dk" target="_blank">Borgerforeningen</a></h3>
+                    Torup og Omegns Borger- og Grundejerforening.
+                </div>
+
+                <div class="span4 temp">
+                    <a title="Torup Forsamlingshus" href="http://www.torupforsamlingshus.dk" target="_blank">
+                        <img title="Torup Forsamlingshus" class="medium" src="../images/Forsamlingshus.jpg" alt="Torup Forsamlingshus" /></a>
+                    <h3><a title="Torup Forsamlingshus" href="http://www.torupforsamlingshus.dk" target="_blank">Torup Forsamlingshus</a></h3>
+                    Forsamlingshuset er det lokale mødested for beboere i Torup og omegn.
+                    Det lånes ud til offentlige arrangementer og lejes ud til private fester,
+                    generalforsamlinger, receptioner og andre arrangementer.
+                </div>
+
+                <div class="span4 temp">
+                    <a title="Halsnæs Lilleskole" href="http://www.halsnaesskolen.dk" target="_blank">
+                        <img title="Halsnæs Lilleskole" class="medium" src="../images/Lilleskolen.gif" alt="Halsnæs Lilleskole" /></a>
+                    <h3><a title="Halsnæs Lilleskole" href="http://www.halsnaesskolen.dk" target="_blank">Halsnæs Lilleskole</a></h3>
+                    En skole for både hoved og krop.
+                </div>
+
+            </div>
+
+            <!--Row 5-->
+            <div class="row">
+
+                <div class="span4 temp">
+                    <a title="Himmelstorm Festival" href="http://www.himmelstorm-festival.dk/" target="_blank">
+                        <img title="Himmelstorm Festival" class="medium" src="../images/Himmelstorm.jpg" alt="Himmelstorm Festival" /></a>
+                    <h3><a title="Himmelstorm Festival" href="http://www.himmelstorm-festival.dk/" target="_blank">Himmelstorm Festival</a></h3>
+                    Himmelstorm Festivalen vokser i frugtbar, bæredygtig jord. Helt bogstaveligt. 
+                    Festivalen hører hjemme i Økosamfundet Dyssekilde, i Torup mellem Hundested og Frederiksværk
+                </div>
+
+                <div class="span4 temp">
+                    <a title="Fiskeriets og Havnens Hus" href="http://www.fiskerietsoghavnenshus.dk/" target="_blank">
+                        <img title="Fiskeriets og Havnens Hus" class="medium" src="../images/Width770/FiskerietOgHavnensHus.jpg" alt="Fiskeriets og Havnens Hus" /></a>
+                    <h3><a title="Fiskeriets og Havnens Hus" href="http://www.fiskerietsoghavnenshus.dk/" target="_blank">Fiskeriets og Havnens Hus</a></h3>
+                    <ul>
+                        <li>Oplevelsesplatformen "Klap en fisk".</li>
+                        <li>Pyramidepavilionen: Undervisning i ly for vejret.</li>
+                        <li>Hundested motoren: Se og hør en 2 cylindret Hundested motor.</li>
+                        <li>Det sorte spil hus: Hundested havn igennem tiderne.</li>
+                        <li>Det gamle beddingshus: Naturformidlingsstation.</li>
+                    </ul>
+                </div>
+
+                <div class="span4 temp">
+                    <a title="Torup Børnehave" href="http://www.torupbornehave.dk/forside.asp" target="_blank">
+                        <img title="Torup Børnehave" class="medium" src="../images/Width770/VillaRo.jpg" alt="Torup Børnehave" /></a>
+                    <h3><a title="Torup Børnehave" href="http://www.torupbornehave.dk/forside.asp" target="_blank">Torup Børnehave</a></h3>
+                    Torup Børnehave holder til i Villa Ro, tæt ved Halsnæs Lilleskole og Torup Forsamlingshus
+                </div>
+
+            </div>
+
+        </div>
+
+        <!--Push the footer down-->
+        <!--<div id="push"></div>-->
+    </div>
+
+    <!-- Same footer repeated on each page -->
+    <div id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="span6" id="footer1"></div>
+                <div class="span3" id="footer2"></div>
+                <div class="span3" id="footer3"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+    <script src="../js/jquery/jquery-1.9.1.min.js"></script>
+    <script src="../js/jquery/jquery.cookie.js"></script>
+
+    <script src="../js/bootstrap/bootstrap-affix.js"></script>
+    <script src="../js/bootstrap/bootstrap-alert.js"></script>
+    <script src="../js/bootstrap/bootstrap-button.js"></script>
+    <script src="../js/bootstrap/bootstrap-carousel.js"></script>
+    <script src="../js/bootstrap/bootstrap-collapse.js"></script>
+    <script src="../js/bootstrap/bootstrap-dropdown.js"></script>
+    <script src="../js/bootstrap/bootstrap-modal.js"></script>
+    <!--<script src="../js/bootstrap/bootstrap-popover.js"></script>-->
+    <script src="../js/bootstrap/bootstrap-scrollspy.js"></script>
+    <script src="../js/bootstrap/bootstrap-tab.js"></script>
+    <script src="../js/bootstrap/bootstrap-tooltip.js"></script>
+    <script src="../js/bootstrap/bootstrap-transition.js"></script>
+    <script src="../js/bootstrap/bootstrap-typeahead.js"></script>
+    <script src="../js/bootstrap/bootstrap.min.js"></script>
+
+    <script src="../js/custom/textsize.js"></script>
+    <script src="../js/custom/load-file-as-text.js"></script>
+    <script src="../js/custom/setupmenu2.js"></script>
+    <script src="../js/custom/navigation.js"></script>
+
+    <script type="text/javascript">
+        $(window).load(function () { //start after HTML, images have loaded
+            // Load footer columns
+            loadContent("Footer/Footer1.htm", "#footer1");
+            loadContent("Footer/Footer2.htm", "#footer2");
+            loadContent("Footer/Footer3.htm", "#footer3");
+            setupMenu2("Json/navigation.txt", "#menu");
+        });
+    </script>
+    <script src="../js/googleanalytics/trackingcode.js"></script>
+
+</body>
+</html>
