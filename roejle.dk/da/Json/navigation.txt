@@ -12,5 +12,6 @@
     ,{ "url":"Links.html", "menu":"Links", "description":"Links ..." }
     ,{ "url":"About.html", "menu":"Om Røjlegården" }
     ,{ "url":"WebCookies.html", "menu":"Web og cookies", "description":"Roejle.dk og cookies" }
+    ,{ "url":"..OldIndex.html", "menu":"Gammel site", "description":"gammel site" }
 ]
 }
