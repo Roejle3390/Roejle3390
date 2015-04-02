@@ -8,7 +8,7 @@
     ,{ "url":"Weekend.html", "menu":"Love-weekend for two", "description":"Kærligheds-weekend luxus og ro for to" }
     ,{ "url":"Sheeps.html", "menu":"Mutton/lamb", "description":"Får og lam, Økologisk lammekød" }
     ,{ "url":"SheepWool.html", "menu":"Wool", "description":"Gråt uldgarn fra økologiske får"  }
-    ,{ "url":"Bookshop.html", "menu":"Bookstall", "description":"Bogbod med brugte bøger fra Torup Bogby" }
+    ,{ "url":"Bookshop.html", "menu":"Book town", "description":"Bogbod med brugte bøger fra Torup Bogby" }
     ,{ "url":"Links.html", "menu":"Links", "description":"Links ..." }
     ,{ "url":"About.html", "menu":"About Roejlegaarden" }
     ,{ "url":"WebCookies.html", "menu":"Web and cookies", "description":"Roejle.dk og cookies" }
