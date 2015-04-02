@@ -93,15 +93,18 @@ iframe
     }
 }
 
-.temp {
-    background-color:yellow
+.temp
+{
+    background-color: lightgray;
 }
 
 .languages
-{}
+{
+}
 
-.english {
-    display:none
+.english
+{
+    /*display:none*/
 }
 
 .danish
