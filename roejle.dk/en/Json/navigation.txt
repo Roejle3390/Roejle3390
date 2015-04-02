@@ -3,10 +3,10 @@
     { "url":"Index.html", "menu":"Reojlegaarden", "description":"Røjlegården", "title":"Røjlegården indgangsside", "markup":"<span class=\"icon-home\"></span>"  } 
     ,{ "url":"Honey.html", "menu":"Honey", "description":"Honning fra egne bier" }
     ,{ "url":"Willow.html", "menu":"Willow", "description":"Økologisk pil af egen avl" }
-    ,{ "url":"Campsite.html", "menu":"Campsite" }
+    ,{ "url":"Campsite.html", "menu":"Campsite: waggon and tent" }
     ,{ "url":"Room.html", "menu":"Room" }
-    ,{ "url":"Weekend.html", "menu":"Weekend stay", "description":"Kærligheds-weekend luxus og ro for to" }
-    ,{ "url":"Sheeps.html", "menu":"Organic sheep meat", "description":"Får og lam, Økologisk lammekød" }
+    ,{ "url":"Weekend.html", "menu":"Love-weekend for two", "description":"Kærligheds-weekend luxus og ro for to" }
+    ,{ "url":"Sheeps.html", "menu":"Mutton/lamb", "description":"Får og lam, Økologisk lammekød" }
     ,{ "url":"SheepWool.html", "menu":"Wool", "description":"Gråt uldgarn fra økologiske får"  }
     ,{ "url":"Bookshop.html", "menu":"Bookstall", "description":"Bogbod med brugte bøger fra Torup Bogby" }
     ,{ "url":"Links.html", "menu":"Links", "description":"Links ..." }
