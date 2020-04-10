@@ -1,5 +1,4 @@
 #2013-08-21
 user-agent:*
-disallow: /*.swf
 disallow: /en/
 sitemap: http://www.roejle.dk/Sitemap.xml

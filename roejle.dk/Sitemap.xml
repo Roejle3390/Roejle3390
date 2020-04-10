@@ -13,18 +13,6 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://www.roejle.dk/da/Honey.html</loc>
-    <lastmod>2013-08-15T20:48:15+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.roejle.dk/da/Willow.html</loc>
-    <lastmod>2013-08-15T20:48:21+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://www.roejle.dk/da/Campsite.html</loc>
     <lastmod>2013-08-15T20:48:11+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -37,26 +25,8 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.roejle.dk/da/Weekend.html</loc>
-    <lastmod>2013-08-15T20:48:21+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://www.roejle.dk/da/Sheeps.html</loc>
     <lastmod>2013-08-15T20:48:19+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.roejle.dk/da/SheepWool.html</loc>
-    <lastmod>2013-08-15T20:48:19+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.roejle.dk/da/Bookshop.html</loc>
-    <lastmod>2013-08-15T20:48:11+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -66,7 +36,7 @@
     <changefreq>daily</changefreq>
     <priority>0.3</priority>
   </url>
-  <url>
+  <url>
     <loc>http://www.roejle.dk/da/About.html</loc>
     <lastmod>2013-08-15T20:48:10+00:00</lastmod>
     <changefreq>daily</changefreq>
