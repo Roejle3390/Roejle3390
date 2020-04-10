@@ -3,5 +3,5 @@
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-ga('create', 'UA-40992338-1', '188.178.120.20');
+ga('create', 'UA-43265836-1', 'roejle.dk');
 ga('send', 'pageview');
