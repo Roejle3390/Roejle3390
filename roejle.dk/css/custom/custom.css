@@ -11,7 +11,7 @@
 
 .vertical_space
 {
-    height: 40px;
+    height: 20px;
 }
 
 .navbar .nav > li > a
@@ -30,13 +30,13 @@
 
 .sectionEntries > div
 {
-    height: 320px;
+    /* height: 530px; */
 }
 
 .sectionEntries .span4
 {
     /*padding-bottom: 20px;*/
-    min-height: 28.57142857em;
+    /* min-height: 28.57142857em; */
 }
 
 iframe
